@@ -1,0 +1,92 @@
+body{
+	font-family: 'Montserrat', sans-serif;;
+	text-align: center;
+	/*background: #AA3939;*/
+	background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	color: white; 
+}
+
+h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: white; 
+
+}
+
+ol, h4 {
+	text-align: left;
+	color: white;
+}
+
+p {
+	color: white;
+}
+
+.avatar {
+	width: 300px;
+	height: 300px;
+    object-fit: cover;
+}
+
+.production {
+	width: 300px;
+	height: 150px;
+    object-fit: cover;
+}
+
+
+.cadre {
+	margin: 80px;
+	padding: 25px; 
+	border: 10px solid black;
+	border-radius: 15px; 
+}
+
+.my-btn {
+	display: inline-block;
+	border-radius: 2px; 
+	border: 4px solid black; 
+	color: black;
+	background: #F9F9F9; 
+	padding: 10px; 
+	text-decoration: none; 
+}
+
+.my-navbar {
+	background: #065EA1; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+.links {
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.link {
+
+  
+margin: 10px 30px; 
+color: #ECECEC
+
+}
+
+.link:hover {
+	color:  #065EA1; 
+}
+
+div{
+	background: #546674; 
+}
