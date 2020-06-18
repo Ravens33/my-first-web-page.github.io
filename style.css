@@ -63,6 +63,30 @@ p {
 
 	}
 
+.line-transparent {
+background: #546674;
+color:white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.line-dark{
+background: #546674;
+width: 50% ;
+height: 5px;
+}
+.line-medium {
+background: #546674;
+width: 30% ;
+height: 5px;
+}
+.line-light {
+background:#546674;
+width: 20%;
+height: 5px;
+}
+
+
 
 
 .my-navbar {
